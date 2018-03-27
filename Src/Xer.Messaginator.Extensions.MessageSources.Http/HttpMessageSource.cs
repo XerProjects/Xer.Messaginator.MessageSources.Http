@@ -110,6 +110,11 @@ namespace Xer.Messaginator.MessageSources.Http
                 .UseUrls(Url);
 
             _host = ConfigureWebHost(webHostBuilder);
+
+            if (_host == null)
+            {
+                return Task.FromException(new InvalidOperationException("No web host was configured."));
+            }
  
             return _host.StartAsync(cancellationToken);
         }
@@ -121,7 +126,7 @@ namespace Xer.Messaginator.MessageSources.Http
         /// <returns>Asynchronous task.</returns>
         public Task StopReceivingAsync(CancellationToken cancellationToken = default(CancellationToken))
         {
-            return _host.StopAsync(cancellationToken);
+            return _host?.StopAsync(cancellationToken);
         }
 
         #endregion IMessageSource<TMessage> Implementation
