@@ -133,7 +133,7 @@ namespace Xer.Messaginator.MessageSources.Http
         /// </summary>
         public void Dispose()
         {
-            _host.Dispose();
+            _host?.Dispose();
         }     
 
         /// <summary>
