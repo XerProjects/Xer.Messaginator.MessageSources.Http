@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>jeyjeyemem;xerprojects-contributors;</Authors>
+    <Description>HTTP MessageSource implementation for Xer.Messaginator.</Description>
+    <Copyright>Copyright (c) XerProjects contributors</Copyright>
+    <PackageLicenseUrl>https://github.com/XerProjects/Xer.Messaginator.MessageSources.Http/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/XerProjects/Xer.Messaginator.MessageSources.Http</PackageProjectUrl>
+    <PackageTags>http;messaging;message-source;</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
@@ -10,7 +16,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="2.0.1" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="2.0.0" />
-    <PackageReference Include="Xer.Messaginator" Version="0.2.0" />
+    <PackageReference Include="Xer.Messaginator" Version="1.0.0" />
   </ItemGroup>
 
 </Project>

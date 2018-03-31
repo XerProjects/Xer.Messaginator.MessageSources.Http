@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{7544C20D-4446-4337-9178-E7EAFB3918A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xer.Messaginator.Extensions.MessageSources.Http", "Src\Xer.Messaginator.Extensions.MessageSources.Http\Xer.Messaginator.Extensions.MessageSources.Http.csproj", "{431F4295-9394-4FE9-9A5F-C5322A9B6E92}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xer.Messaginator.MessageSources.Http", "Src\Xer.Messaginator.MessageSources.Http\Xer.Messaginator.MessageSources.Http.csproj", "{431F4295-9394-4FE9-9A5F-C5322A9B6E92}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{F446DCAB-A4D2-4034-9161-569E79C61E1E}"
 EndProject
